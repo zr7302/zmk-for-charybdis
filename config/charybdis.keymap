@@ -23,7 +23,7 @@
                                               &mo 0      &mo 1           &kp EQUAL
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            /*trackball-bindings = <&tmv_coarse>;*/
         };
 
         layer_1 {
