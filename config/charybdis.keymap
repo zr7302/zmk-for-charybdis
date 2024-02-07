@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
@@ -32,7 +33,7 @@
 &none           &none         &kp UP      &none         &none      &none           &none      &none     &none       &none   &kp PRINTSCREEN  &kp LEFT_BRACKET
 &kp LEFT_SHIFT  &kp LEFT      &kp DOWN    &kp RIGHT     &none      &none           &none      &mkp MB1  &mkp MB2    &none   &none            &none
 &kp C_VOL_UP    &kp C_VOL_DN  &kp C_MUTE  &kp CAPS      &none      &none           &none      &none     &kp PERIOD  &none   &none            &none
-                                          &kp LEFT_ALT  &kp SPACE  &kp LEFT_WIN    &none      &trans
+                                          &kp LEFT_ALT  &kp SPACE  &kp LEFT_WIN    &none      &none
                                                         &none      &none           &kp MINUS
             >;
         };
@@ -41,7 +42,7 @@
             bindings = <
 &none  &none         &none         &none         &none         &none         &none         &none         &none     &none  &none   &kp F11
 &none  &none         &none         &none         &none         &none         &none         &none         &none     &none  &none   &none
-&none  &none         &none         &none         &none         &none         &none         &mkp MB1      &mkp MB2  &none  &none   &none
+&none  &none         &none         &none         &none         &none         &none         &mkp LCLK     &mkp RCLK  &none  &none   &none
 &none  &bt bt_sel 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR    &none         &none         &none     &none  &none   &none
                                    &none         &none         &none         &none         &none
                                                  &none         &none         &none
