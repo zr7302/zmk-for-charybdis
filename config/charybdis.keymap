@@ -30,10 +30,10 @@
 
        layer_1 {
             bindings = <
-&KP KP_PLUS	&kp F1	&kp F2	&kp F3	&kp F4	&kp F5		&kp F6	&kp F7	&kp F8	&kp F9	&kp F10	&kp F11
-&KP KP_MINUS	&none	&none	&none	&none	&none		&none	&none	&none	&none	&none	&kp F12
-&KP KP_MULTIPLY	&none	&none	&none	&none	&none		&none	&none	&none	&none	&kp UP	&kp CAPS
-&KP KP_DIVIDE	&none	&none	&none	&none	&none		&none	&none	&none	&kp LEFT 	&kp DOWN	&kp RIGHT
+&kp KP_PLUS	&kp F1	&kp F2	&kp F3	&kp F4	&kp F5		&kp F6	&kp F7	&kp F8	&kp F9	&kp F10	&kp F11
+&kp KP_MINUS	&none	&none	&none	&none	&none		&none	&none	&none	&none	&none	&kp F12
+&kp KP_MULTIPLY	&none	&none	&none	&none	&none		&none	&none	&none	&none	&kp UP	&kp CAPS
+&kp KP_DIVIDE	&none	&none	&none	&none	&none		&none	&none	&none	&kp LEFT 	&kp DOWN	&kp RIGHT
 			&none	&kp C_AL_CALC	&kp C_NEXT		&kp C_VOL_DN	&kp C_VOL_UP				
 				&kp C_PREV	&kp C_PLAY_PAUSE		&kp C_MUTE	
             >;
