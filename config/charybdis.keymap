@@ -33,7 +33,7 @@
             bindings = <
 &kp F1	&kp F2	&kp F3	&kp F4	&kp F5	&kp F6		&kp F7	&kp F8	&kp F9	&kp F10	&kp F11	&kp F12
 &kp TAB 	&none	&kp HOME	&kp UP	&kp END	&kp INS		&kp INS	&kp HOME	&kp UP	&none	&none	&kp SPACE
-&kp LEFT_SHIFT	&none	&kp LEFT 	&kp DOWN	&kp RIGHT	&kp PG_UP		&kp PG_UP	&kp LEFT 	&kp DOWN	&kp RIGHT	&kp NUBS	&none
+&kp LEFT_SHIFT	&none	&kp LEFT 	&kp DOWN	&kp RIGHT	&kp PG_UP		&kp PG_UP	&kp LEFT 	&kp DOWN	&kp RIGHT	&kp BSLH	&none
 &kp LCTRL 	&bt BT_NXT	&bt BT_CLR	&none	&none	&kp PG_DN		&kp PG_DN	&kp LEFT_SHIFT	&kp LBKT	&kp RBKT	&kp GRAVE	&kp DEL
 			&mkp MB1	&to 0	&mkp MB3		&mkp MB1	&none				
 				&mkp MB2	&kp SPACE		&kp ENTER		
