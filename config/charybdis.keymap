@@ -36,7 +36,7 @@
 &kp LEFT_SHIFT	&kp LEFT	&kp DOWN	&kp RIGHT	&kp PG_UP	&bt BT_CLR		&kp PG_UP	&kp LEFT	&kp DOWN	&kp RIGHT	&kp BSLH	&kp ENTER
 &kp LCTRL	&none	&none	&none	&kp PG_DN	&none		&kp PG_DN	&kp LEFT_SHIFT	&kp LBKT	&kp RBKT	&kp GRAVE	&kp FSLH
 			&kp LEFT_ALT	&kp DEL	&to 0 		&mkp MB2	&mkp MB1				
-				&kp LEFT_GUI	&kp SPACE		&kp CapsLock	
+				&kp LEFT_GUI  &kp SPACE  &kp CapsLock
             >;
         };
 
