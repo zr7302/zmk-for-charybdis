@@ -31,12 +31,12 @@
 
        layer_1 {
             bindings = <
-&kp F1	&kp F2	&kp F3	&kp F4	&kp F5	&kp F6		&kp F7	&kp F8	&kp F9	&kp F10	&kp F11	&kp F12
-&kp TAB	&kp HOME	&kp UP	&kp END	&kp INS	&bt BT_NXT		&kp INS	&kp HOME	&kp UP	&none	&none	&kp BSPC
-&kp LEFT_SHIFT	&kp LEFT	&kp DOWN	&kp RIGHT	&kp PG_UP	&bt BT_CLR		&kp PG_UP	&kp LEFT	&kp DOWN	&kp RIGHT	&kp BSLH	&kp ENTER
-&kp LCTRL	&none	&none	&none	&kp PG_DN	&none		&kp PG_DN	&kp LEFT_SHIFT	&kp LBKT	&kp RBKT	&kp GRAVE	&kp FSLH
-			&kp LEFT_ALT	&kp DEL	&to 0 		&mkp MB2	&mkp MB1				
-				&kp LEFT_GUI  &kp SPACE  &kp CapsLock
+&kp F1	        &kp F2	    &kp F3	    &kp F4	    &kp F5	        &kp F6		 &kp F7	    &kp F8	        &kp F9	    &kp F10  	&kp F11	    &kp F12
+&kp TAB  	    &kp HOME	&kp UP	    &kp END	    &kp INS     	&bt BT_NXT   &kp INS	&kp HOME	    &kp UP   	&none	    &none	    &kp BSPC
+&kp LEFT_SHIFT	&kp LEFT	&kp DOWN	&kp RIGHT	&kp PG_UP   	&bt BT_CLR	 &kp PG_UP	&kp LEFT	    &kp DOWN	&kp RIGHT	&kp BSLH	&kp ENTER
+&kp LCTRL   	&none	    &none	    &none	    &kp PG_DN   	&none		 &kp PG_DN	&kp LEFT_SHIFT	&kp LBKT	&kp RBKT	&kp GRAVE	&kp FSLH
+			              &kp LEFT_ALT  &kp DEL  	&to 0 	    	&mkp MB2	 &mkp MB1				
+				                      &kp LEFT_GUI  &kp SPACE       &none
             >;
         };
 
