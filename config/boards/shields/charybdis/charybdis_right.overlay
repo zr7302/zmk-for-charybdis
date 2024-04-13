@@ -31,6 +31,6 @@
 };
 
 &trackball {
-	//status = "okay"; //okay
-	//irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+	status = "okay"; //okay
+	irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 };
