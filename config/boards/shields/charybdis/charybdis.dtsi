@@ -55,49 +55,16 @@
 		duplex = <2048>; // required by 3-wire spi
 	};
 };
-&pinctrl {
-    spi3_default: spi3_default {
-        group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 1, 13)>;
-        };
-    };
 
-    spi3_sleep: spi3_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 1, 13)>;
-            low-power-enable;
-		};
-	};
 
-//add
-	spi0_default: spi0_default {
-        group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 17)> ,
-            <NRF_PSEL(SPIM_MISO, 0, 17)> ,
-            <NRF_PSEL(SPIM_SCK, 0, 8)>;
-            
-        };
-    };
-
-    spi0_sleep: spi0_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 17)>,
-            <NRF_PSEL(SPIM_MISO, 0, 17)> ,
-            <NRF_PSEL(SPIM_SCK, 0, 8)>;
-            low-power-enable;
-        };
-    };
-//add
-
-};
 
 &spi3 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
-
-	pinctrl-0 = <&spi3_default>;
-	pinctrl-1 = <&spi3_sleep>;
-	pinctrl-names = "default", "sleep";
+    sck-pin = <7>; //old
+    mosi-pin = <3>; //old
+    miso-pin = <3>;//old same as mosi (3-wire spi)
+	cs-gpios = <&gpio0 12 GPIO_ACTIVE_LOW>;
 
 
 	led_strip: ws2812@0 {
@@ -109,7 +76,7 @@
 		spi-max-frequency = <4000000>;
 
 		/* WS2812 */
-		chain-length = <27>; /* There are per-key RGB, but the first 6 are underglow */
+		chain-length = <24>; /* There are per-key RGB, but the first 6 are underglow */
 		spi-one-frame = <0x70>;
 		spi-zero-frame = <0x40>;
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
