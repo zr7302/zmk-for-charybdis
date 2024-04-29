@@ -61,10 +61,10 @@
 &spi3 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
-    sck-pin = <7>; //old
-    mosi-pin = <3>; //old
-    miso-pin = <3>;//old same as mosi (3-wire spi)
-	cs-gpios = <&gpio0 12 GPIO_ACTIVE_LOW>;
+    sck-pin = <21>; //old
+    mosi-pin = <7>; //old
+    miso-pin = <7>;//old same as mosi (3-wire spi)
+	cs-gpios = <&gpio0 23 GPIO_ACTIVE_LOW>;
 
 
 	led_strip: ws2812@0 {
