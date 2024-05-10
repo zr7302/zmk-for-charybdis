@@ -61,10 +61,10 @@
 &spi3 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
-    sck-pin = <21>; //old
+    //sck-pin = <21>; //old
     mosi-pin = <7>; //old
     miso-pin = <7>;//old same as mosi (3-wire spi)
-	cs-gpios = <&gpio0 23 GPIO_ACTIVE_LOW>;
+	//cs-gpios = <&gpio0 23 GPIO_ACTIVE_LOW>;
 
 
 	led_strip: ws2812@0 {
@@ -76,7 +76,7 @@
 		spi-max-frequency = <4000000>;
 
 		/* WS2812 */
-		chain-length = <24>; /* There are per-key RGB, but the first 6 are underglow */
+		chain-length = <27>; /* There are per-key RGB, but the first 6 are underglow */
 		spi-one-frame = <0x70>;
 		spi-zero-frame = <0x40>;
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
