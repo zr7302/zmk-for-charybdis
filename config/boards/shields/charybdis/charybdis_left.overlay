@@ -16,7 +16,7 @@
 		, <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		;
 };
-&spi3 {
+/*&spi3 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
     sck-pin = <21>; //old
@@ -45,4 +45,4 @@
 	chosen {
 		zmk,underglow = &led_strip;
 	};
-};
+};*/
