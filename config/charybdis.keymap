@@ -23,7 +23,7 @@
                                               &mkp MB1   &mkp MB2    &kp ENTER
             >;
 
-           // trackball-bindings = <&tmv_coarse>;
+           trackball-bindings = <&tmv_coarse>;
         };
 
         layer_1 {
@@ -36,7 +36,7 @@
                                               &mkp MB1   &mkp MB2      &kp ENTER
             >;
 
-            //trackball-bindings = <&tsl>;
+            trackball-bindings = <&tsl>;
         };
 
         /* layer_2 {
